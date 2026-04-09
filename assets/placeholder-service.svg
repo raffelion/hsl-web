@@ -1,0 +1,16 @@
+<svg width="1200" height="820" viewBox="0 0 1200 820" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="1200" height="820" rx="44" fill="url(#paint0_linear)"/>
+  <rect x="146" y="170" width="908" height="486" rx="34" fill="white" fill-opacity="0.12"/>
+  <rect x="206" y="238" width="224" height="312" rx="22" fill="white" fill-opacity="0.86"/>
+  <rect x="488" y="238" width="224" height="312" rx="22" fill="white" fill-opacity="0.64"/>
+  <rect x="770" y="238" width="224" height="312" rx="22" fill="white" fill-opacity="0.4"/>
+  <path d="M0 660C108 618 209 606 318 638C427 670 521 714 640 686C759 658 855 584 975 588C1095 592 1149 638 1200 654" stroke="#D5B36A" stroke-width="16"/>
+  <text x="74" y="108" fill="white" font-family="Manrope, Arial, sans-serif" font-size="30" font-weight="700">Replace with service or interior image</text>
+  <text x="74" y="154" fill="white" fill-opacity="0.7" font-family="Manrope, Arial, sans-serif" font-size="24">assets/placeholder-service.svg</text>
+  <defs>
+    <linearGradient id="paint0_linear" x1="80" y1="30" x2="1126" y2="768" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#1F6FAE"/>
+      <stop offset="1" stop-color="#0F2D52"/>
+    </linearGradient>
+  </defs>
+</svg>

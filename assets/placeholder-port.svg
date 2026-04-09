@@ -1,0 +1,19 @@
+<svg width="1200" height="820" viewBox="0 0 1200 820" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="1200" height="820" rx="44" fill="url(#paint0_linear)"/>
+  <path d="M176 606H1044" stroke="white" stroke-opacity="0.78" stroke-width="16"/>
+  <rect x="206" y="302" width="94" height="304" rx="18" fill="white" fill-opacity="0.86"/>
+  <rect x="340" y="234" width="94" height="372" rx="18" fill="white" fill-opacity="0.7"/>
+  <rect x="474" y="282" width="94" height="324" rx="18" fill="white" fill-opacity="0.52"/>
+  <rect x="608" y="190" width="94" height="416" rx="18" fill="white" fill-opacity="0.38"/>
+  <path d="M752 606V286L950 346V606" fill="#D5B36A"/>
+  <path d="M750 286H828L946 346H868L750 286Z" fill="white" fill-opacity="0.65"/>
+  <path d="M0 680C122 642 238 640 332 676C426 712 508 746 630 718C752 690 858 620 980 622C1102 624 1148 656 1200 672" stroke="white" stroke-opacity="0.44" stroke-width="18"/>
+  <text x="74" y="108" fill="white" font-family="Manrope, Arial, sans-serif" font-size="30" font-weight="700">Replace with port activity image</text>
+  <text x="74" y="154" fill="white" fill-opacity="0.7" font-family="Manrope, Arial, sans-serif" font-size="24">assets/placeholder-port.svg</text>
+  <defs>
+    <linearGradient id="paint0_linear" x1="74" y1="42" x2="1096" y2="742" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#123A61"/>
+      <stop offset="1" stop-color="#23658C"/>
+    </linearGradient>
+  </defs>
+</svg>
