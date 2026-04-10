@@ -237,6 +237,15 @@ a {
   color: #f3deb0;
 }
 
+.hero-title-top,
+.hero-title-bottom {
+  display: block;
+}
+
+.hero-title-top {
+  color: white;
+}
+
 .hero-lead {
   max-width: 560px;
   margin: 0 auto 20px;
@@ -519,6 +528,18 @@ a {
   line-height: 1.8;
 }
 
+.photo-ref {
+  display: block;
+  margin-top: 6px;
+  font-size: 0.86rem;
+  color: var(--sea);
+}
+
+.photo-ref a {
+  text-decoration: underline;
+  text-underline-offset: 3px;
+}
+
 .vision-section {
   position: relative;
   padding-top: 0;
@@ -614,6 +635,16 @@ a {
 
 .cta-copy {
   max-width: 720px;
+}
+
+.site-version {
+  width: min(calc(100% - 32px), var(--max-width));
+  margin: -54px auto 40px;
+  text-align: right;
+  font-size: 0.76rem;
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+  color: rgba(16, 35, 61, 0.52);
 }
 
 .reveal-section {
@@ -752,6 +783,12 @@ a {
   .cta-section {
     flex-direction: column;
     align-items: flex-start;
+  }
+
+  .site-version {
+    width: min(calc(100% - 22px), var(--max-width));
+    margin: -44px auto 34px;
+    text-align: left;
   }
 }
 
