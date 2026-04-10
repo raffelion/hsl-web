@@ -33,6 +33,28 @@ readMoreToggles.forEach((toggle) => {
     const isCollapsed = content.dataset.collapsed !== "false";
     content.dataset.collapsed = isCollapsed ? "false" : "true";
     toggle.setAttribute("aria-expanded", String(isCollapsed));
-    toggle.textContent = isCollapsed ? "Show less" : "Read all";
+    toggle.textContent = isCollapsed ? "Tampilkan ringkas" : "Baca selengkapnya";
+  });
+});
+
+const galleryTrack = document.querySelector(".gallery-grid");
+const galleryButtons = document.querySelectorAll("[data-gallery-nav]");
+
+galleryButtons.forEach((button) => {
+  button.addEventListener("click", () => {
+    if (!galleryTrack) {
+      return;
+    }
+
+    const firstCard = galleryTrack.querySelector(".photo-card");
+    const cardWidth = firstCard ? firstCard.getBoundingClientRect().width : 240;
+    const gap = 18;
+    const scrollAmount = cardWidth + gap;
+    const direction = button.dataset.galleryNav === "next" ? 1 : -1;
+
+    galleryTrack.scrollBy({
+      left: scrollAmount * direction,
+      behavior: "smooth",
+    });
   });
 });
