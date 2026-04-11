@@ -975,7 +975,7 @@ a {
     position: absolute;
     inset: auto 0 0;
     height: 48px;
-    background: linear-gradient(180deg, rgba(244, 247, 251, 0), rgba(244, 247, 251, 0.96));
+    background: linear-gradient(180deg, rgba(11, 18, 37, 0), rgba(18, 28, 52, 0.98));
     pointer-events: none;
   }
 
